@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+// useState = rederizar elemento na tela após alteração de valor
 const ExemploState = () => {
   const [count, setCount] = useState(0);
 
