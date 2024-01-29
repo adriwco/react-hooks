@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import ExemploState from "./components/useState";
 import ExemploEffect from "./components/useEffect";
 import ExemploRef from "./components/useRef";
+import ExemploReducer from "./components/useReducer";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 // hook não pode está dentro de loops ou function
@@ -15,5 +16,7 @@ root.render(
     <ExemploEffect />
     <h2>3. useRef</h2>
     <ExemploRef />
+    <h2>4. useReducer</h2>
+    <ExemploReducer />
   </>
 );
