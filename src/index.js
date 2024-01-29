@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import ExemploState from "./components/useState";
 import ExemploEffect from "./components/useEffect";
+import ExemploRef from "./components/useRef";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 // hook não pode está dentro de loops ou function
@@ -12,5 +13,7 @@ root.render(
     <ExemploState />
     <h2>2. useEffect</h2>
     <ExemploEffect />
+    <h2>3. useRef</h2>
+    <ExemploRef />
   </>
 );
